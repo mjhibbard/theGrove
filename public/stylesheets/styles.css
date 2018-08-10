@@ -6,14 +6,14 @@ body{
 
 /* Navbar styles and effects */
 
-.navbar .navbar-expand-lg .navbar-light{
+/* .navbar .navbar-expand-lg .navbar-light{
 	opacity: .5;
 }
 
 .navbar-collapse .mr-auto  {
 	margin-right: unset;
 	margin-left: auto;
-}
+} */
 
 .navbar .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -22,15 +22,15 @@ nav .navbar-light a.navbar-brand {
     color: #fff;
 }
 
-.navbar-light .navbar-toggler {
+/* .navbar-light .navbar-toggler {
     border-color: #fff;
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	.navbar-expand-lg {
 		justify-content: space-between;
 	}
-}
+} */
 
 .jumbotron {
 	background-color: transparent;
