@@ -4,6 +4,17 @@ body{
     background-color: #fff;
 }
 
+/* Navbar styles and effects */
+
+.navbar .navbar-expand-lg .navbar-light{
+	opacity: .5;
+}
+
+.navbar-collapse .mr-auto  {
+	margin-right: unset;
+	margin-left: auto;
+}
+
 .navbar .navbar-light .navbar-nav .nav-link {
     color: #fff;
 }
@@ -15,18 +26,37 @@ nav .navbar-light a.navbar-brand {
     border-color: #fff;
 }
 
+@media (min-width: 992px) {
+	.navbar-expand-lg {
+		justify-content: space-between;
+	}
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#white-back {
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	padding: 45px 0;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.btn-outline-info:hover{
+	background-color: #4c9d2f; 
+}
+
 /* Slideshow Styles/Animation */
-/* 
-#landing-header{
+
+#home-header{
 	z-index: 1;
 	position: relative;
 	text-align: center;
 	padding-top: 40vh;
 }
-
-#landing-header h1 {
-	color: #fff;
-} */
 
 .slideshow{
 	position: fixed;
