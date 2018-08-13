@@ -6,10 +6,10 @@ body{
 
 /* Navbar styles and effects */
 
-/* .navbar .navbar-expand-lg .navbar-light{
+.navbar .navbar-expand-lg .navbar-light{
 	opacity: .5;
 }
-
+/*
 .navbar-collapse .mr-auto  {
 	margin-right: unset;
 	margin-left: auto;
