@@ -20,7 +20,11 @@ app.get("/about", function(req, res){
 
 app.get("/coffee", function(req, res){
     res.render("coffee")
-})
+});
+
+app.get("/showcase", function(req, res){
+    res.render("showcase");
+});
 
 app.listen(3000, function(){
     console.log("The Grove server is Listening!!");
