@@ -17,9 +17,20 @@ body{
 	border-radius: 5px;
 	background-color: #fff;
 }
+.btn-outline-info {
+	border-color: #4c9d2f;
+	color: #4c9d2f;
+
+}
 
 .btn-outline-info:hover{
-	background-color: #4c9d2f; 
+	background-color: #4c9d2f;
+	border-color: #4c9d2f; 
+}
+
+.btn-outline-info:active {
+	border-color: #4c9d2f;
+	background-color: #4c9d2f;
 }
 
 /* Slideshow Styles/Animation */
