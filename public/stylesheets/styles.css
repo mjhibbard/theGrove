@@ -4,6 +4,16 @@ body{
     background-color: #fff;
 }
 
+/* Navbar styles */
+
+.navbar.sticky-top.navbar-expand-lg.navbar-dark {
+	padding: .7rem 1rem;
+	opacity: 0.85;
+}
+
+.navbar.sticky-top.navbar-expand-lg.navbar-dark:hover {
+	opacity: 1;
+}
 
 .jumbotron {
 	background-color: transparent;
@@ -20,7 +30,6 @@ body{
 .btn-outline-info {
 	border-color: #4c9d2f;
 	color: #4c9d2f;
-
 }
 
 .btn-outline-info:hover{
@@ -39,11 +48,17 @@ body{
 	z-index: 1;
 	position: relative;
 	text-align: center;
-	padding-top: 40vh;
+	padding-top: 10vh;
 }
 
 div#slideshow.carousel {
 	z-index: 0;
-	position: fixed;
+	position: absolute;
 
+}
+
+/*Footer Styles */
+
+.footer {
+	background-color: #4c9b2f;
 }
