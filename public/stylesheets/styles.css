@@ -62,3 +62,9 @@ div#slideshow.carousel {
 .footer {
 	background-color: #4c9b2f;
 }
+
+.color-mask{
+	background-color: rgba( 150,150,150,0.7);
+	z-index: 2;
+
+}
