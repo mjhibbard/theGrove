@@ -30,4 +30,5 @@ app.listen(3000, function(){
     console.log("The Grove server is Listening!!");
 });
 
+//indegrove.church is site and through godaddy.com
 //nodemon index.js
