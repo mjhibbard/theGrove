@@ -30,5 +30,7 @@ app.listen(3000, function(){
     console.log("The Grove server is Listening!!");
 });
 
-//indegrove.church is site and through godaddy.com
+//indygrove.church is site and through godaddy.com
 //nodemon index.js
+
+//ssh -l username domain -p (port)
