@@ -12,9 +12,9 @@ express()
     .set('view engine', 'ejs')
     //Routes
     .get('/', (req, res) => res.render('splash'))
-    .get('/about', (req, res) => res.redirect('/'))
+    .get('/about', (req, res) => res.render('about'))
     .get('/coffee', (req, res) => res.redirect('/'))
-
+    .get('/showcase', (req, res) => res.render('showcase'))
     .listen(PORT, (req, res) => console.log("The Grove server is Listening!!"))
 
 
