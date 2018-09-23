@@ -13,9 +13,13 @@ express()
     //Routes
     .get('/', (req, res) => res.render('index'))
     .get('/about', (req, res) => res.render('about'))
+    .get('/call', (req, res) => res.render('call'))
     .get('/coffee', (req, res) => res.render('coffee'))
+    .get('/contact', (req, res) => res.render('contact'))
+    .get('/story', (req, res) => res.send("This is our story route."))
     .get('/showcase', (req, res) => res.render('showcase'))
     .get('/splash', (req, res) => res.render('splash'))
+    .get('/media', (req, res) => res.redirect('/about'))
     .listen(PORT, (req, res) => console.log("The Grove server is Listening!!"))
 
 
