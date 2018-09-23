@@ -11,10 +11,11 @@ express()
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'ejs')
     //Routes
-    .get('/', (req, res) => res.render('splash'))
+    .get('/', (req, res) => res.render('index'))
     .get('/about', (req, res) => res.render('about'))
-    .get('/coffee', (req, res) => res.redirect('/'))
+    .get('/coffee', (req, res) => res.render('coffee'))
     .get('/showcase', (req, res) => res.render('showcase'))
+    .get('/splash', (req, res) => res.render('splash'))
     .listen(PORT, (req, res) => console.log("The Grove server is Listening!!"))
 
 

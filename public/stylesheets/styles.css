@@ -68,6 +68,20 @@ div#slideshow.carousel {
 
 .footer {
 	background-color: #4c9b2f;
+	color: #fff;
+}
+
+.icons {
+	/* height: 100%; */
+	/* width: 100%; */
+	/* display: flex; */
+	color: #fff;
+}
+
+.icons a:link,
+.icons a:visited {
+	text-decoration: none;
+	color: #fff;
 }
 
 img {
@@ -77,6 +91,4 @@ img {
 .color-mask{
 	background-color: rgba( 150,150,150,0.7);
 	z-index: 2;
-	
-
 }
