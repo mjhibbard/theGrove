@@ -58,6 +58,15 @@ body{
 	padding-top: 10vh;
 }
 
+div#home-header {
+	position: absolute;
+	z-index: 40;
+	color: white;
+	width: 100%;
+	background: linear-gradient(to right, rgba(76,157,47, 0.8), rgba(76,157,47,0));
+	clip-path: polygon(0 0%, 800% 0, 100% 80%, 0% 100%);
+}
+
 div#slideshow.carousel {
 	z-index: 0;
 	position: absolute;
