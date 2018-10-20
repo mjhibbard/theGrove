@@ -13,12 +13,24 @@ body{
 
 
 /* Navbar styles */
-.navbar.sticky-top.navbar-expand-lg.navbar-dark {
+.navbar {
 	padding: .7rem 1rem;
 	opacity: 0.85;
+	color: white;
 }
 
-.navbar.sticky-top.navbar-expand-lg.navbar-dark:hover {
+.navbar:hover {
+	opacity: 1;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited {
+	color: white;
+	opacity: 0.9;
+}
+
+.navbar a:hover {
 	opacity: 1;
 }
 
@@ -30,6 +42,11 @@ body{
     top: 0;
     left: 100%;
     margin-top: -1px;
+}
+
+.dropdown-item {
+	color: #4c9d2f;
+	opacity: inherit;
 }
 
 .jumbotron {
@@ -80,7 +97,10 @@ div#home-header {
 div#slideshow.carousel {
 	z-index: 0;
 	position: absolute;
+}
 
+a.to-front {
+	z-index: 1040;
 }
 
 /*Footer Styles */
