@@ -44,6 +44,35 @@ body{
 	border-radius: 5px;
 	background-color: #fff;
 }
+
+.accordion-link {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: transparent;
+	cursor: pointer;
+	color: #4c9b2f;
+	font-weight: 400;
+}
+
+.accordion-link:focus {
+	outline: none;
+}
+
+.accordion-link:hover {
+	color: rgba(76,157,47, 0.8);
+}
+
+.card-header {
+	background-color: rgba(76,157,47, 0.19);
+}
+
 .btn-outline-info {
 	border-color: #4c9d2f;
 	color: #4c9d2f;
