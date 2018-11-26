@@ -11,6 +11,24 @@ body{
 	margin: 0 auto;
 }
 
+.splash-page__img-title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 5;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background-color: #333;
+	padding: 1vw 0;
+	opacity: .7;
+	font-size: 5vw;
+	transform: translate(-50%, -50%);
+}
+
+div.container-fluid.rounded.color-mask {
+	position: relative;
+}
 
 /* Navbar styles */
 .navbar.sticky-top.navbar-expand-lg.navbar-dark {
@@ -138,5 +156,4 @@ img {
 }
 .color-mask{
 	background-color: rgba( 150,150,150,0.7);
-	z-index: 2;
 }
