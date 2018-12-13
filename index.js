@@ -3,11 +3,13 @@ const express       = require("express");
 const path          = require("path");
 const PORT          = process.env.PORT || 3000;
 const hostname      = '127.0.0.1';
+const favicon       = require("serve-favicon");
 const server        = http.createServer(express());
 
 express()
     //App Config
     .use(express.static(path.join(__dirname, 'public')))
+    .use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')))
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'ejs')
     //Routes
