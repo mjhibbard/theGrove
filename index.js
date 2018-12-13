@@ -8,8 +8,8 @@ const server        = http.createServer(express());
 
 express()
     //App Config
-    .use(express.static(path.join(__dirname, 'public')))
     .use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')))
+    .use(express.static(path.join(__dirname, 'public')))
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'ejs')
     //Routes
